@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Warp test</title>
+</head>
+<body>
+  <h1>Hello there!</h1>
+  <button id="connect">Connect to someone!</button>
+  <button id="submit">Send a file!</button>
+  <input id="peerId" type="text" />
+  <input id="file" type="file">
+  <hr/>
+  <h3>Basic Usage:</h3>
+  <ol>
+    <li>
+      Open two tabs
+    </li>
+    <li>
+      Open the console with both tabs (Crtl+Shift+i).
+      You should see a magic word fetched for you.
+    </li>
+    <li>
+      FOR THE RECEIVING TAB: Enter in the SENDERS magic
+      word into the input bar and click "connect"
+    </li>
+    <li>FOR THE SENDING TAB: Click to "choose a file", then click "send"</li>
+    <li>
+      A link should now have appeared in the receivers tab. Click it to download the senders file
+    </li>
+  </ol>
+  <script src="/bundle.js"></script>
+</body>
+</html>

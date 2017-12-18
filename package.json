@@ -4,12 +4,17 @@
   "description": "A simple direct peer-to-peer file transporter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Jacob Bleser",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "webpack": "^3.10.0"
+    "jquery": "^3.2.1",
+    "peer": "^0.2.8",
+    "peerjs": "^0.3.14",
+    "random-word": "^2.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.1"
   }
 }
